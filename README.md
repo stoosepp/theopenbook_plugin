@@ -1,4 +1,4 @@
-# theopenbook
+# theopenbook_plugin
 
 An Open Textbook Plugin for Wordpress
 Compansion to [theopenbook](https://github.com/stoosepp/theopenbook) theme - both work together!
