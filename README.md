@@ -27,16 +27,13 @@ Recommended Plugins to make life easier: [Simple Page Ordering](https://wordpres
 ### Posts too!
 
 If you want to create posts, these will show up on your home page as document-based pages based on category, so make a category (e.g., "General Academic Support") and put all your posts in that category in there
+_You can even make posts public, but hidden from the front page by simply including the word 'hidden' in the category title._
 
 ## Credits and Acknowledgements
 
 Primary Developer: [Stoo Sepp](www.stoosepp.com)
 
 Thank you to [@hibbittsdesign](https://twitter.com/hibbittsdesign), [@FirasM](https://twitter.com/FirasM), and [@RichAsInRichard](https://twitter.com/RichAsInRichard) for their patience in answering my questions and helping me to learn more about Wordpress and Open Textbook platforms.
-
-This Theme incorporates the following work:
-[Tufte CSS](https://github.com/edwardtufte/tufte-css) led by Dave Liepmann
-License: MIT License
 
 ## Licence
 
