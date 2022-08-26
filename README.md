@@ -1,9 +1,11 @@
 # theopenbook
 
 An Open Textbook Plugin for Wordpress
-![Screenshot of theopenbook Theme](https://github.com/stoosepp/theopenbook/blob/4822746d9f7ab4fb73c942699ff07a548a547500/screenshot.png)
+Compansion to [theopenbook](https://github.com/stoosepp/theopenbook) theme - both work together!
 
 ## Managing books for theopenbook theme
+
+This plugin creates a new custom post type called Book, which allows for subject categorization, and all the features below.
 
 ## Features
 
