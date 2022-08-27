@@ -1,7 +1,7 @@
 <?php
 // CREATE BOOK CUSTOM POST TYPE
 
- //class SetUpFunctions{
+
 	function create_book_type() {
 		register_post_type( 'book',
 		// CPT Options
@@ -65,9 +65,26 @@
 		register_taxonomy_for_object_type('subject', 'book');
 		register_taxonomy_for_object_type('post_tag', 'book');
 		// Add category metabox to page
-	//}
+	}
 	add_action( 'init', 'set_theopenbook_settings' );
-}
 
-
+	//Remove Page
+	/*
+	function remove_default_post_type($args, $postType) {
+		if ($postType === 'page') {
+			$args['public']                = false;
+			$args['show_ui']               = false;
+			$args['show_in_menu']          = false;
+			$args['show_in_admin_bar']     = false;
+			$args['show_in_nav_menus']     = false;
+			$args['can_export']            = false;
+			$args['has_archive']           = false;
+			$args['exclude_from_search']   = true;
+			$args['publicly_queryable']    = false;
+			$args['show_in_rest']          = false;
+		}
+		return $args;
+	}
+	add_filter('register_post_type_args', 'remove_default_post_type', 0, 2);
+*/
 ?>
